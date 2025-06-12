@@ -1,5 +1,5 @@
 # Bug Tracking System
-Capstone Project
+## Capstone Project
 
 A Bug Tracking System is a software application that helps us to track issues and bugs in software applications.
 It can help us to resolve issues quickly and efficiently, and it can also helps to improve the Quality of Software.
