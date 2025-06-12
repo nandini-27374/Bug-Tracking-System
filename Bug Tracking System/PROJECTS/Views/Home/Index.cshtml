@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Welcome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container-fluid bg-light" style="background-color: #91a3b0 !important; min-height: 100vh; padding-top: 60px;">
+    <div class="container text-center">
+        <div class="p-5 mb-4 bg-white rounded-3 shadow-sm">
+            <h1 class="display-5 fw-bold text-primary">&#128030<u> Welcome to the Bug Tracking System</u></h1><br />
+            <p>
+                Bug Tracking System is a lightweight and efficient tool to help developers to track, prioritize, and resolve bugs.
+            </p><hr /><br />
+     
+
+            <p>
+                Browse the complete list of bugs and navigate to edit, delete, or view details by clicking on the "View the Index Page" Button.
+                There you can review all the reported bugs and check their statuses.
+            </p>
+
+
+            <div class="mt-4">
+                <a asp-controller="Bugs" asp-action="Index" class="btn btn-lg btn-primary px-5 me-2">
+                    &#128269 View the Index Page
+                </a><hr /><br />
+ 
+                <br />
+                <p>
+                    If you have encountered a bug, let us know immediatly,and Log a new bug with relevant details such as title, description, severity, status, assignee, and Reported date.
+                </p><br />
+                <a asp-controller="Bugs" asp-action="Create" class="btn btn-lg btn-outline-success px-5">
+                    &#10133 Create Bug
+                </a>
+            </div>
+        </div>
+
+        <div class="text-muted small mt-4">
+            Version 1.0 • Last updated @DateTime.Now.ToShortDateString()
+        </div>
+    </div>
+</div>
+
