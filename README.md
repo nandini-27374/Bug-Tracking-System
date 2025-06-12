@@ -4,7 +4,7 @@ Capstone Project
 A Bug Tracking System is a software application that helps us to track issues and bugs in software applications.
 It can help us to resolve issues quickly and efficiently, and it can also helps to improve the Quality of Software.
 
-**Table of contents:**  
+## Table of contents:
 
 Features  
 
@@ -19,7 +19,7 @@ Deployment Steps
 Documentation 
 
 
-**Features:**  
+## Feature
 
 Add a new bug report  
 
@@ -32,7 +32,7 @@ Delete bug entries
 View individual bug details  
 
 
-**Technologies Used:**  
+## Technologies Used
 
 ASP.NET Core MVC  
 
@@ -45,7 +45,7 @@ Razor Views + Bootstrap
 Git for version control  
 
 
-**Usage Instructions:**  
+## Usage Instructions
 
 Go to /Bugs/Index to view bug list  
 
@@ -58,12 +58,12 @@ Click on "Details" to see the bug details individually
 Want to delete the bug entry click on "Delete" button  
 
 
-**Deployment Steps:**  
+## Deployment Steps 
 
 Push to GIT Hub  
 
 
-**Documentation**  
+## Documentation  
 
 
 
