@@ -19,7 +19,7 @@ Deployment Steps
 Documentation 
 
 
-## Feature
+## Features
 
 Add a new bug report  
 
